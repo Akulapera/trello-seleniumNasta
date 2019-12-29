@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class AnotherLoginTest extends TestBase {
+public class LoginTestOLD {
     WebDriver wd;
 
     @BeforeClass
@@ -19,23 +19,20 @@ public class AnotherLoginTest extends TestBase {
     }
 
      @Test
-    public  void testLoginWithAtlassianAccount () throws InterruptedException {
+    public  void testLogin () throws InterruptedException {
+        // click login
          clickLoginLink();
-     }
 
-    @Test
-    public  void testLoginWithOldnAccount () throws InterruptedException {
-        clickLoginLink();
-    }
+     }
 
     public void clickLoginLink() throws InterruptedException {
         wd.findElement(By.cssSelector("[href='/login']")).click();
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
         wd.findElement(By.id("user")).sendKeys("porokhnia.anastasiya@gmail.com");
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
-        if(wd.findElement(By.id("password")).isDisplayed()){
+        if(isElementPresent(By.id("password"))){
             wd.findElement(By.id("password")).click();
             wd.findElement(By.id("password")).clear();
             wd.findElement(By.id("password")).sendKeys("495561na");
