@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a33fbb3-54e0-4be3-97d2-2bce92a81820" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/AnotherLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/AnotherLoginTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java" afterDir="false" />
     </list>
@@ -34,24 +35,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="567" />
+          <entry key="java" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="567" />
+          <entry key="JAVA" value="576" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -59,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestOLD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,17 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="118">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#994#995#0" expanded="true" />
@@ -476,10 +477,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/AnotherLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestOLD.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java" />
       </list>
     </option>
   </component>
@@ -540,12 +541,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577618494356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577695116453" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Nasta.Trello" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\porok\Documents\GitHub\trello-seleniumNastaLENA\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -560,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AnotherLoginTest.testLoginWithOldnAccount">
+  <component name="RunManager">
     <configuration name="LoginTestOLD.testLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-selenium_test" />
       <extension name="coverage">
@@ -603,8 +607,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AnotherLoginTest.testLoginWithOldnAccount" />
         <item itemvalue="TestNG.LoginTestOLD.testLogin" />
+        <item itemvalue="TestNG.AnotherLoginTest.testLoginWithOldnAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -622,9 +626,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_testLogin - 2019.12.25 at 11h 25m 09s.xml">
-      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest_testLogin - 2019.12.25 at 11h 27m 23s.xml">
       <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
@@ -648,6 +649,12 @@
     </history-entry>
     <history-entry file="AnotherLoginTest_testLoginWithOldnAccount - 2019.12.29 at 12h 56m 01s.xml">
       <configuration name="AnotherLoginTest.testLoginWithOldnAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_testLoginWithOldnAccount - 2019.12.30 at 10h 37m 38s.xml">
+      <configuration name="LoginTest.testLoginWithOldnAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestOLD_testLogin - 2019.12.30 at 10h 38m 21s.xml">
+      <configuration name="LoginTestOLD.testLogin" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -695,33 +702,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestOLD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../trello-seleniumNastaLENA/src/test/java/Trello/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../trello-seleniumNastaLENA/src/test/java/Trello/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../trello-seleniumNastaLENA/src/test/java/Trello/LoginTestOLD.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="118">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#994#995#0" expanded="true" />
             <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1400#1401#0" expanded="true" />
             <element signature="e#1457#1458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestOLD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

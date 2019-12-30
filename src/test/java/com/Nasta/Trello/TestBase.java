@@ -19,9 +19,10 @@ public class TestBase {
         wd.get("https://trello.com/");
     }
 
-    public void clickLoginLink(String login, String password) throws InterruptedException {
+    public void login(String login, String password) throws InterruptedException {
         clickCSS("[href='/login']");
         type("user", login);
+
 
         if (wd.findElement(By.id("password")).isDisplayed()) {
             type("password", password);
@@ -55,3 +56,4 @@ public class TestBase {
         return wd.findElements(locator).size()>0;
      }
 }
+
