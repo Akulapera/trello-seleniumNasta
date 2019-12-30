@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTestOLD {
+public class LoginLowLevel {
     WebDriver wd;
 
     @BeforeClass
