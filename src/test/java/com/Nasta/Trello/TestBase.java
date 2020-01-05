@@ -3,6 +3,7 @@ package com.Nasta.Trello;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
@@ -21,18 +22,18 @@ public class TestBase {
 
     public void login(String login, String password) throws InterruptedException {
         clickCSS("[href='/login']");
-        type("user", login);
+        type(By.id("user"), login);
 
 
-        if (wd.findElement(By.id("password")).isDisplayed()) {
-            type("password", password);
+        if (wd.findElement(By.id ("password")).isDisplayed()) {
+            type(By.id("password"), password);
         }
-        clickId("login");
+        clickId(By.id ("login"));
 
-        if (isElementPresent(By.id("login-submit"))) {
-            clickId("login-submit");
-            type("password", "495561na");
-            clickId("login-submit");
+        if (isElementPresent(By.id ("login-submit"))) {
+            clickId(By.id ("login-submit"));
+            type(By.id ("password"), "495561na");
+            clickId(By.id ("login-submit"));
         }
 
     }
@@ -41,19 +42,25 @@ public class TestBase {
         wd.findElement(By.cssSelector(cssLocator)).click();
     }
 
-    private void clickId(String locator) {
+    private void clickId(By locator) {
 
-        wd.findElement(By.id(locator)).click();
+        wd.findElement(locator).click();
     }
 
-    private void type(String locator, String text) {
+    private void type(By locator, String text) {
         clickId(locator);
-        wd.findElement(By.id(locator)).clear();
-        wd.findElement(By.id(locator)).sendKeys(text);
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(text);
     }
 
-    public  boolean  isElementPresent(By locator){
+    public  boolean  isElementPresent(By locator)
+    {
         return wd.findElements(locator).size()>0;
      }
+
+      @AfterClass
+    public  void tearDown (){
+        wd.quit();
+      }
 }
 

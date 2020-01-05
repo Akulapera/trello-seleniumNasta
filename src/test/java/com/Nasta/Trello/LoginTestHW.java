@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTestOLD {
+public class LoginTestHW {
     WebDriver wd;
 
     @BeforeClass
@@ -48,14 +48,10 @@ public class LoginTestOLD {
 
                wd.findElement(By.id("login-submit")).click();
            }
-
-
-
-
-
     }
 
-     public  boolean  isElementPresent(By locator){
+     public  boolean  isElementPresent(By locator)
+     {
         return wd.findElements(locator).size()>0;
      }
 }
