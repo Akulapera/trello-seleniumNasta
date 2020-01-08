@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Trello" verbose="1" >
-    <test name="Smoketest" >
+    <test name="Regression" >
         <classes>
             <class name="com.Nasta.Trello.LoginTestHW" />
             <class name="com.Nasta.Trello.BoardCreationTests" />

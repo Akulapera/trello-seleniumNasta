@@ -16,7 +16,7 @@ public class TestBase {
     @BeforeSuite
 
     public void setUp() {
-        String browser=System.getProperty("browser", BrowserType.CHROME);
+        String browser=System.getProperty("browser", BrowserType.FIREFOX);
         if (browser.equals(BrowserType.CHROME)){
             wd = new ChromeDriver();
         } else
@@ -154,5 +154,39 @@ public class TestBase {
 
     public boolean isThereBoard() {
         return getBoardsCount() > 1;
+    }
+
+    public void openFirstBoard() {
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li[5]"));
+    }
+
+    public  void clickOpenMore(){
+        click(By.cssSelector(".js-open-more"));
+    }
+
+    public  void startCloseBoard(){
+        click(By.xpath("//a[@class='board-menu-navigation-item-link js-close-board']"));
+    }
+
+    public  void firstConfirmClose() {
+        click(By.cssSelector(".js-confirm"));
+    }
+
+    public  void secondConfirmDeletion() {
+        click(By.cssSelector(".js-delete"));
+    }
+
+    public  void lastConfirmDeletion() {
+        click(By.cssSelector("[type=submit]"));
+    }
+
+    public  void deleteBoard(){
+        openFirstBoard();
+        clickOpenMore();
+        startCloseBoard();
+        firstConfirmClose();
+        secondConfirmDeletion();
+        lastConfirmDeletion();
+        returnToHomePage();
     }
 }
