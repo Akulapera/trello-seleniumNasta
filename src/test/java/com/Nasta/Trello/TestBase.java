@@ -1,10 +1,11 @@
-
 package com.Nasta.Trello;
 
         import org.openqa.selenium.By;
         import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.chrome.ChromeDriver;
-        import org.testng.annotations.AfterClass;
+        import org.openqa.selenium.edge.EdgeDriver;
+        import org.openqa.selenium.firefox.FirefoxDriver;
+        import org.openqa.selenium.remote.BrowserType;
         import org.testng.annotations.AfterSuite;
         import org.testng.annotations.BeforeSuite;
         import java.util.concurrent.TimeUnit;
@@ -15,7 +16,16 @@ public class TestBase {
     @BeforeSuite
 
     public void setUp() {
-        wd = new ChromeDriver();
+        String browser=System.getProperty("browser", BrowserType.CHROME);
+        if (browser.equals(BrowserType.CHROME)){
+            wd = new ChromeDriver();
+        } else
+            if (browser.equals(BrowserType.FIREFOX)){
+            wd= new FirefoxDriver();
+        } else
+            if (browser.equals(BrowserType.EDGE)) {
+                wd = new EdgeDriver();
+            }
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
     }
@@ -75,7 +85,7 @@ public class TestBase {
 
         if (isElementPresent(By.id("login-submit"))){
             click(By.id("login-submit"));
-            type(By.id("password"), "12345.com");
+            type(By.id("password"), "495561na");
             click(By.id("login-submit"));
         }
     }
@@ -89,13 +99,6 @@ public class TestBase {
         clickOnAvatar();
         clickLogoutButton();
     }
-
-//    public void loginAtlassianAcc() throws InterruptedException {
-//        clickLoginLink();
-//        fillLoginFormAtlassianAcc("porokhnia.anastasiya@gmail.com", "495561na");
-//        pause(20000);
-//    }
-
 
     public void testLogInOldAcc() throws InterruptedException {
         clickLoginLink();
@@ -115,4 +118,41 @@ public class TestBase {
         return isElementPresent(By.id("error"));
     }
 
+    public void returnToHomePage() {
+        click(By.name("house"));
+        click(By.name("house"));
+    }
+
+    public void confirmBoardCreation() {
+        click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+    }
+
+    public void fillBoardForm(String boardName) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    }
+
+    public void selectCreateBoardFromDropDown() {
+        click(By.xpath("//span[@name='board']/..//p"));
+    }
+
+    public void clickOnPlusButton() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+    }
+
+    public int getBoardsCount(){
+         return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
+    }
+
+    public void createBoard() throws InterruptedException {
+        clickOnPlusButton();
+        selectCreateBoardFromDropDown();
+        fillBoardForm("QA-22" + System.currentTimeMillis());
+        confirmBoardCreation();
+        pause(5000);
+        returnToHomePage();
+    }
+
+    public boolean isThereBoard() {
+        return getBoardsCount() > 1;
+    }
 }
