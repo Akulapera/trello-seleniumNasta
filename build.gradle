@@ -31,5 +31,13 @@ dependencies {
             systemProperty 'browser',  "${browser}"
         }
     }
+     task testTeam(type:Test) {
+         useTestNG() {
+             suites 'src/test/resources/testng_teams.xml'
+         }
+         if (project.hasProperty('browser')){
+             systemProperty 'browser',  "${browser}"
+         }
+     }
 
 }
