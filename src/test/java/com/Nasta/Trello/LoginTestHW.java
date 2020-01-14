@@ -8,37 +8,37 @@ public class LoginTestHW extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        if (isAvatarPresentOnHeader()) {
-            logout();
+        if (app.isAvatarPresentOnHeader()) {
+            app.logout();
         }
     }
 
     @Test(enabled = false)
     public void testLogInWithAtlassianAcc() throws InterruptedException {
-        clickLoginLink();
-        fillLoginFormAtlassianAcc("porokhnia.anastasiya@gmail.com", "495561na");
-        pause(20000);
+        app.clickLoginLink();
+        app.fillLoginFormAtlassianAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        app.pause(20000);
         Assert.assertTrue
-                (isAvatarPresentOnHeader());
+                (app.isAvatarPresentOnHeader());
     }
 
     @Test(enabled = false)
     public void negativeTestLogInWithAtlassianAcc() throws InterruptedException {
-        clickLoginLink();
-        fillLoginFormAtlassianAcc("roch", "");
-        pause(8000);
-        Assert.assertTrue(isErrorPresent());
+        app.clickLoginLink();
+        app.fillLoginFormAtlassianAcc("roch", "");
+        app.pause(8000);
+        Assert.assertTrue(app.isErrorPresent());
         Assert.assertTrue
-                (!isAvatarPresentOnHeader());
+                (!app.isAvatarPresentOnHeader());
     }
 
     @Test
     public void testLogInOldAcc() {
-        clickLoginLink();
-        fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
-        confirmLogin();
+        app.clickLoginLink();
+        app.fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        app.confirmLogin();
         Assert.assertTrue
-                (isAvatarPresentOnHeader());
+                (app.isAvatarPresentOnHeader());
     }
 
 }

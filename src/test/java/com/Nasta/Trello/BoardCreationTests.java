@@ -8,29 +8,29 @@ public class BoardCreationTests extends  TestBase{
 
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if(!isAvatarPresentOnHeader()){
-            testLogInOldAcc();
+        if(!app.isAvatarPresentOnHeader()){
+            app.testLogInOldAcc();
         }
     }
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
-        int before = getBoardsCount();
-        clickOnPlusButton();
-        selectCreateBoardFromDropDown();
-        fillBoardForm("QA-22"+ System.currentTimeMillis());
-        confirmBoardCreation();
-        pause(5000);
-        returnToHomePage();
-        int actualRes = getBoardsCount();
+        int before = app.getBoardsCount();
+        app.clickOnPlusButton();
+        app.selectCreateBoardFromDropDown();
+        app.fillBoardForm("QA-22"+ System.currentTimeMillis());
+        app.confirmBoardCreation();
+        app.pause(5000);
+        app.returnToHomePage();
+        int actualRes = app.getBoardsCount();
        int expectedRes= before;
        Assert.assertEquals(actualRes, expectedRes+1);
     }
      @AfterClass
      public  void postActions(){
-        int boardCount= getBoardsCount();
+        int boardCount= app.getBoardsCount();
         while (boardCount>6){
-            deleteBoard();
-            boardCount=getBoardsCount();
+            app.deleteBoard();
+            boardCount= app.getBoardsCount();
         }
      }
 }
