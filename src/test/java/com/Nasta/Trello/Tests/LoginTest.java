@@ -8,43 +8,37 @@ public class LoginTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
-        if (app.isAvatarPresentOnHeader()) {
-            app.logout();
+        if (app.getSession().isAvatarPresentOnHeader()) {
+            app.getSession().logout();
         }
     }
 
     @Test(enabled = false)
     public void testLogInWithAtlassianAcc() throws InterruptedException {
-        app.clickLoginLink();
-        app.fillLoginFormAtlassianAcc("porokhnia.anastasiya@gmail.com", "495561na");
-        app.pause(20000);
+        app.getSession().clickLoginLink();
+        app.getSession().fillLoginFormAtlassianAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        app.getHeader().pause(20000);
         Assert.assertTrue
-                (app.isAvatarPresentOnHeader());
+                (app.getSession().isAvatarPresentOnHeader());
     }
 
     @Test(enabled = false)
     public void negativeTestLogInWithAtlassianAcc() throws InterruptedException {
-        app.clickLoginLink();
-        app.fillLoginFormAtlassianAcc("roch", "");
-        app.pause(8000);
-        Assert.assertTrue(app.isErrorPresent());
+        app.getSession().clickLoginLink();
+        app.getSession().fillLoginFormAtlassianAcc("roch", "");
+        app.getHeader().pause(8000);
+        Assert.assertTrue(app.getSession().isErrorPresent());
         Assert.assertTrue
-                (!app.isAvatarPresentOnHeader());
+                (!app.getSession().isAvatarPresentOnHeader());
     }
 
     @Test
     public void testLogInOldAcc() {
-        app.clickLoginLink();
-        app.fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
-        app.confirmLogin();
+        app.getSession().clickLoginLink();
+        app.getSession().fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        app.getSession().confirmLogin();
         Assert.assertTrue
-                (app.isAvatarPresentOnHeader());
+                (app.getSession().isAvatarPresentOnHeader());
     }
-    public void testLogInOldAcc() throws InterruptedException {
-        clickLoginLink();
-        fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
-        confirmLogin();
-    }
-}
 
 }

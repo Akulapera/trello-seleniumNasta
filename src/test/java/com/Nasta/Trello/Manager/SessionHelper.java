@@ -60,8 +60,15 @@ public class SessionHelper extends HelperBase{
     public void clickLogoutButton() {
         click(By.cssSelector("[data-test-id='header-member-menu-logout']"));
     }
+
     public boolean isErrorPresent() {
         return isElementPresent(By.id("error"));
+    }
+
+    public void testLogInOldAcc() throws InterruptedException {
+        clickLoginLink();
+        fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        confirmLogin();
     }
 
 }

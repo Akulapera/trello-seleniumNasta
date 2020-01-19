@@ -9,7 +9,7 @@ public class TeamHelper extends  HelperBase {
         super(wd);
     }
 
-    protected void submitTeamCreation() {
+    public void submitTeamCreation() {
         click(By.cssSelector("[data-test-id='header-create-team-submit-button']"));
     }
 

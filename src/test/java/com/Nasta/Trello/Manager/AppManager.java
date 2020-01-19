@@ -16,7 +16,7 @@ public class AppManager {
 
     WebDriver wd;
 
-    protected void init() {
+    public void init() {
         String browser = System.getProperty("browser", BrowserType.FIREFOX);
         if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
@@ -34,7 +34,7 @@ public class AppManager {
         header=new HeaderHelper(wd);
     }
 
-    protected void stop() {
+    public void stop() {
         wd.quit();
     }
 

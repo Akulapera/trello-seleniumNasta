@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a33fbb3-54e0-4be3-97d2-2bce92a81820" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardDeletionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/LoginTestHW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/LoginTestHW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TeamCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TeamCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/AppManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/BoardDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/LoginTestHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TeamDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TeamModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_teams.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_teams.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/AppManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardDeletionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/BoardHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/LoginTestHW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TeamCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/Nasta/Trello/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/AppManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/HeaderHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/HeaderHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/TeamHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/TeamHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardDeletionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamCreationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,14 +61,14 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="8" />
-          <entry key="java" value="65" />
+          <entry key="java" value="79" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="8" />
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="79" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="7" />
         </counts>
@@ -78,14 +77,14 @@
         <counts>
           <entry key="dummy" value="61" />
           <entry key="gradle" value="172" />
-          <entry key="java" value="2372" />
+          <entry key="java" value="2479" />
           <entry key="xml" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="172" />
-          <entry key="JAVA" value="2372" />
+          <entry key="JAVA" value="2479" />
           <entry key="PLAIN_TEXT" value="61" />
           <entry key="XML" value="101" />
         </counts>
@@ -94,113 +93,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/AppManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/AppManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/SessionHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardDeletionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/TeamHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamModificationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamDeletionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -621,6 +530,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/SessionHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/AppManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/AppManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/HeaderHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardDeletionTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/TeamHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/AppManager.java" />
       </list>
     </option>
   </component>
@@ -685,6 +602,15 @@
               <item name="trello-seleniumNasta" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Trello" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trello-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-seleniumNasta" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -697,7 +623,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579443736080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579445329914" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -724,7 +650,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BoardCreationTests.testBoardCreationFromHeader">
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="BoardCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-selenium_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Nasta.Trello.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Nasta.Trello.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nasta.Trello.Tests.BoardCreationTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardCreationTests.testBoardCreationFromHeader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-selenium_test" />
       <extension name="coverage">
@@ -743,18 +685,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testLogInOldAcc" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-selenium_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Nasta.Trello.com.Nasta.Trello.Manager.*" />
+          <option name="PATTERN" value="com.Nasta.Trello.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Nasta.Trello" />
-      <option name="MAIN_CLASS_NAME" value="com.Nasta.Trello.com.Nasta.Trello.Tests.LoginTest" />
-      <option name="METHOD_NAME" value="testLogInOldAcc" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.Nasta.Trello.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Nasta.Trello.Tests.LoginTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -795,36 +735,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.Nasta.Trello" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-selenium_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Nasta.Trello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Nasta.Trello" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTest.testLogInOldAcc" />
-      <item itemvalue="TestNG.com.Nasta.Trello" />
       <item itemvalue="TestNG.TeamCreationTests" />
       <item itemvalue="TestNG.TeamCreationTests.teamCreationFromHeaderTest" />
       <item itemvalue="TestNG.BoardCreationTests.testBoardCreationFromHeader" />
+      <item itemvalue="TestNG.BoardCreationTests" />
+      <item itemvalue="TestNG.LoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.BoardCreationTests" />
         <item itemvalue="TestNG.BoardCreationTests.testBoardCreationFromHeader" />
         <item itemvalue="TestNG.TeamCreationTests.teamCreationFromHeaderTest" />
         <item itemvalue="TestNG.TeamCreationTests" />
-        <item itemvalue="TestNG.com.Nasta.Trello" />
-        <item itemvalue="TestNG.LoginTest.testLogInOldAcc" />
       </list>
     </recent_temporary>
   </component>
@@ -842,12 +766,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_Nasta_Trello - 2020.01.08 at 20h 14m 51s.xml">
-      <configuration name="com.Nasta.Trello" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="com_Nasta_Trello - 2020.01.08 at 20h 18m 11s.xml">
-      <configuration name="com.Nasta.Trello" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="com_Nasta_Trello - 2020.01.08 at 20h 22m 25s.xml">
       <configuration name="com.Nasta.Trello" configurationId="TestNG" />
     </history-entry>
@@ -872,12 +790,17 @@
     <history-entry file="BoardCreationTests_testBoardCreationFromHeader - 2020.01.14 at 13h 36m 26s.xml">
       <configuration name="BoardCreationTests.testBoardCreationFromHeader" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BoardCreationTests - 2020.01.19 at 16h 43m 42s.xml">
+      <configuration name="BoardCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2020.01.19 at 16h 45m 39s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40161943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24453442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -886,7 +809,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52491105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6530249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.14590748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -987,125 +910,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/BoardHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/BoardHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/HeaderHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="344">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/TeamHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/TeamHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="435">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamModificationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamDeletionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/TeamDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/TeamCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="731">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardDeletionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/HeaderHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Tests/BoardCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Manager/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="612">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/com/Nasta/Trello/Manager/AppManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Nasta/Trello/Tests/BoardCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

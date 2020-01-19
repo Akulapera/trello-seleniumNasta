@@ -8,19 +8,19 @@ public class BoardCreationTests extends  TestBase{
 
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if(!app.isAvatarPresentOnHeader()){
-            app.testLogInOldAcc();
+        if(!app.getSession().isAvatarPresentOnHeader()){
+            app.getSession().testLogInOldAcc();
         }
     }
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
         int before = app.getBoardHelper().getBoardsCount();
-        app.clickOnPlusButton();
+        app.getHeader().clickOnPlusButton();
         app.getBoardHelper().selectCreateBoardFromDropDown();
         app.getBoardHelper().fillBoardForm("QA-22"+ System.currentTimeMillis());
         app.getBoardHelper().confirmBoardCreation();
-        app.pause(15000);
-        app.returnToHomePage();
+        app.getHeader().pause(15000);
+        app.getHeader().returnToHomePage();
         int actualRes = app.getBoardHelper().getBoardsCount();
        int expectedRes= before;
        Assert.assertEquals(actualRes, expectedRes+1);
