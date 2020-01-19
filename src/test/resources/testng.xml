@@ -3,8 +3,8 @@
 <suite name="Trello" verbose="1" >
     <test name="Regression" >
         <classes>
-            <class name="com.Nasta.Trello.LoginTestHW" />
-            <class name="com.Nasta.Trello.BoardCreationTests" />
+            <class name="com.Nasta.Trello.Tests.LoginTest" />
+            <class name="com.Nasta.Trello.Tests.BoardCreationTests" />
         </classes>
     </test>
 </suite>

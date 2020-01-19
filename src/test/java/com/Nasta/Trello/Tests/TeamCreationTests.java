@@ -1,4 +1,4 @@
-package com.Nasta.Trello;
+package com.Nasta.Trello.Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

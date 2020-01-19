@@ -1,10 +1,10 @@
-package com.Nasta.Trello;
+package com.Nasta.Trello.Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTestHW extends TestBase {
+public class LoginTest extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() {
@@ -40,5 +40,11 @@ public class LoginTestHW extends TestBase {
         Assert.assertTrue
                 (app.isAvatarPresentOnHeader());
     }
+    public void testLogInOldAcc() throws InterruptedException {
+        clickLoginLink();
+        fillLoginFormOldAcc("porokhnia.anastasiya@gmail.com", "495561na");
+        confirmLogin();
+    }
+}
 
 }

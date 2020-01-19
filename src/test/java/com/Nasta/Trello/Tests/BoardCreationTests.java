@@ -1,4 +1,4 @@
-package com.Nasta.Trello;
+package com.Nasta.Trello.Tests;
         import org.testng.Assert;
         import org.testng.annotations.AfterClass;
         import org.testng.annotations.BeforeMethod;
@@ -14,23 +14,23 @@ public class BoardCreationTests extends  TestBase{
     }
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
-        int before = app.getBoardsCount();
+        int before = app.getBoardHelper().getBoardsCount();
         app.clickOnPlusButton();
-        app.selectCreateBoardFromDropDown();
-        app.fillBoardForm("QA-22"+ System.currentTimeMillis());
-        app.confirmBoardCreation();
-        app.pause(5000);
+        app.getBoardHelper().selectCreateBoardFromDropDown();
+        app.getBoardHelper().fillBoardForm("QA-22"+ System.currentTimeMillis());
+        app.getBoardHelper().confirmBoardCreation();
+        app.pause(15000);
         app.returnToHomePage();
-        int actualRes = app.getBoardsCount();
+        int actualRes = app.getBoardHelper().getBoardsCount();
        int expectedRes= before;
        Assert.assertEquals(actualRes, expectedRes+1);
     }
      @AfterClass
      public  void postActions(){
-        int boardCount= app.getBoardsCount();
+        int boardCount= app.getBoardHelper().getBoardsCount();
         while (boardCount>6){
-            app.deleteBoard();
-            boardCount= app.getBoardsCount();
+            app.getBoardHelper().deleteBoard();
+            boardCount= app.getBoardHelper().getBoardsCount();
         }
      }
 }
