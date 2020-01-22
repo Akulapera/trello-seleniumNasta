@@ -1,4 +1,5 @@
 package com.Nasta.Trello.Tests;
+        import com.Nasta.Trello.Model.BoardData;
         import org.testng.Assert;
         import org.testng.annotations.AfterClass;
         import org.testng.annotations.BeforeMethod;
@@ -17,7 +18,7 @@ public class BoardCreationTests extends  TestBase{
         int before = app.getBoardHelper().getBoardsCount();
         app.getHeader().clickOnPlusButton();
         app.getBoardHelper().selectCreateBoardFromDropDown();
-        app.getBoardHelper().fillBoardForm("QA-22"+ System.currentTimeMillis());
+        app.getBoardHelper().fillBoardForm(new BoardData("iiiiii-22" + System.currentTimeMillis()));
         app.getBoardHelper().confirmBoardCreation();
         app.getHeader().pause(15000);
         app.getHeader().returnToHomePage();

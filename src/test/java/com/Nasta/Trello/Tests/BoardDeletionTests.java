@@ -21,6 +21,6 @@ public class BoardDeletionTests extends TestBase {
       app.getBoardHelper().firstConfirmClose();
       app.getBoardHelper().secondConfirmDeletion();
       app.getBoardHelper().lastConfirmDeletion();
-      app.getSession().returnToHomePage();
+      app.getHeader().returnToHomePage();
     }
 }

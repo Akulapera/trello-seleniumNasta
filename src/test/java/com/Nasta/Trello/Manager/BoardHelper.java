@@ -1,5 +1,6 @@
 package com.Nasta.Trello.Manager;
 
+import com.Nasta.Trello.Model.BoardData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,8 +13,8 @@ public class BoardHelper  extends HelperBase{
         click(By.cssSelector("[data-test-id='create-board-submit-button']"));
     }
 
-    public void fillBoardForm(String boardName) {
-        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    public void fillBoardForm(BoardData boardData) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardData.getBoardName());
     }
 
     public void selectCreateBoardFromDropDown() {
@@ -27,7 +28,7 @@ public class BoardHelper  extends HelperBase{
     public void createBoard() throws InterruptedException {
         clickOnPlusButton();
         selectCreateBoardFromDropDown();
-        fillBoardForm("QA-22" + System.currentTimeMillis());
+        fillBoardForm(new BoardData("QA-22" + System.currentTimeMillis()));
         confirmBoardCreation();
         pause(5000);
         returnToHomePage();
@@ -69,5 +70,12 @@ public class BoardHelper  extends HelperBase{
         secondConfirmDeletion();
         lastConfirmDeletion();
         returnToHomePage();
+    }
+    public void returnToHomePage() {
+        click(By.name("house"));
+        click(By.name("house"));
+    }
+    public void clickOnPlusButton() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
     }
 }
