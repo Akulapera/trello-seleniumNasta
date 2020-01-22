@@ -18,7 +18,7 @@ public class HeaderHelper extends HelperBase {
         click(By.name("house"));
     }
     public void clickOnPlusButton() {
-        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+        click(By.cssSelector("[name='add']"));
     }
 
 }

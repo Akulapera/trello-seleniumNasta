@@ -28,6 +28,7 @@ public class TeamHelper extends  HelperBase {
      }
 
     public  int getTeamsCount(){
+
       return  wd.findElements(By.cssSelector("[data-test-id^='home-team-tab-section']")).size();
       }
 }
